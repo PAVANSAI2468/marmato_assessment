@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+#results1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#results2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.offer {
+    color: red;
+    font-size: 15px;
+    display: inline;
+}
+
+.compare_at_price_value {
+    text-decoration: line-through;
+    display: inline;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+
+.vendorName {
+    display: inline;
+    margin-right: 3px;
+    font-size: 13px;
+}
+
+.dressName {
+    font-size: 15px;
+    display: inline;
+}
+
+.imageSizing {
+    height: 48vh;
+
+}
+
+.headingOfPage {
+    text-align: center;
+}
+
+.bg-conatiner {
+    font-family: Roboto;
+    background-color: pink;
+    padding: 30px;
+
+}
+
+.btn-container {
+    display: flex;
+    justify-content: center;
+}
+
+button {
+    width: 200px;
+    background-color: transparent;
+    border-width: 0px;
+    margin-right: 5px;
+    font-weight: bold;
+    cursor: pointer;
+}
